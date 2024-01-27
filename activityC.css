@@ -1,0 +1,25 @@
+p {
+    font-size: 16px;
+    color: darkgreen;
+}
+
+.Welcome {
+    background-color: skyblue;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+thead, tfoot {
+    background-color: gray;
+    color: black;
+}
+
+.Contact {
+    #ContactInfo {
+        background-color: dodgerblue;
+    }
+    font-style: bold italic;
+    color: red;
+}
