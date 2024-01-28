@@ -1,0 +1,39 @@
+h1 {
+    background-color: black;
+    font-size: 32px;
+    color: red;
+    text-align: center;
+    position: relative;
+
+}
+h2 {
+    background-color: red;
+    font-size: 24px;
+    color: blue;
+}
+body {
+    background-color: darkblue;
+}
+#Data {
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    color: red;
+}
+table, td {
+    border: 1px solid white;
+}
+thead, tfoot {
+    background-color: white;
+    color: black;
+}
+#Floater {
+    text-align: center;
+    width: 10em;
+    padding: 0.5em;
+    border: 0.5em dashed darkviolet;
+    margin: 1em;
+    background-color: lightblue;
+    color: black;
+    float: right;
+}
