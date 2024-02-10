@@ -1,0 +1,61 @@
+.website-header h1 {
+    font-family: Times, "Times New Roman", Georgia, sans-serif;
+    color: lime;
+    background-color: skyblue;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px 0;
+    -webkit-text-stroke: 1px black;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+body h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+body {
+    background-color: lightgreen;
+}

@@ -1,0 +1,90 @@
+body {
+    font-family: Times, "Times New Roman", Georgia, sans-serif;
+    color: black;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    background-color: #7d1157;
+}
+
+.website-header h1 {
+    font-family: cursive;
+    background-color: #ff00cc;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.website-header::before {
+    content: "Come check out our shop at Installation 04!";
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    height: 20px;
+    background-color: #ff00cc;
+}
+
+.intro p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.details p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.menu p {
+    text-align: center;
+}
+
+.menu h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.donut {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border-bottom: 2px groove white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.donut:hover {
+    background-color: white;
+}
+
+.menu li::before {
+    content: "🍩";
+    padding-right: 10px;
+}
+
